@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84D169761C45FD190076EFB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D169751C45FD190076EFB4 /* main.m */; };
+		84D169791C45FD190076EFB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D169781C45FD190076EFB4 /* AppDelegate.m */; };
+		84D1697C1C45FD190076EFB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D1697B1C45FD190076EFB4 /* ViewController.m */; };
+		84D1697F1C45FD190076EFB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D1697D1C45FD190076EFB4 /* Main.storyboard */; };
+		84D169821C45FD190076EFB4 /* piapia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84D169801C45FD190076EFB4 /* piapia.xcdatamodeld */; };
+		84D169841C45FD190076EFB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D169831C45FD190076EFB4 /* Assets.xcassets */; };
+		84D169871C45FD190076EFB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D169851C45FD190076EFB4 /* LaunchScreen.storyboard */; };
+		84D169921C45FD1A0076EFB4 /* piapiaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D169911C45FD1A0076EFB4 /* piapiaTests.m */; };
+		84D1699D1C45FD1A0076EFB4 /* piapiaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D1699C1C45FD1A0076EFB4 /* piapiaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84D1698E1C45FD1A0076EFB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D169691C45FD190076EFB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D169701C45FD190076EFB4;
+			remoteInfo = piapia;
+		};
+		84D169991C45FD1A0076EFB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D169691C45FD190076EFB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D169701C45FD190076EFB4;
+			remoteInfo = piapia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84D169711C45FD190076EFB4 /* piapia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = piapia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D169751C45FD190076EFB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84D169771C45FD190076EFB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84D169781C45FD190076EFB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84D1697A1C45FD190076EFB4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84D1697B1C45FD190076EFB4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84D1697E1C45FD190076EFB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84D169811C45FD190076EFB4 /* piapia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = piapia.xcdatamodel; sourceTree = "<group>"; };
+		84D169831C45FD190076EFB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84D169861C45FD190076EFB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84D169881C45FD190076EFB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D1698D1C45FD1A0076EFB4 /* piapiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = piapiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D169911C45FD1A0076EFB4 /* piapiaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = piapiaTests.m; sourceTree = "<group>"; };
+		84D169931C45FD1A0076EFB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D169981C45FD1A0076EFB4 /* piapiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = piapiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D1699C1C45FD1A0076EFB4 /* piapiaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = piapiaUITests.m; sourceTree = "<group>"; };
+		84D1699E1C45FD1A0076EFB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D1696E1C45FD190076EFB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D1698A1C45FD1A0076EFB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D169951C45FD1A0076EFB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84D169681C45FD190076EFB4 = {
+			isa = PBXGroup;
+			children = (
+				84D169731C45FD190076EFB4 /* piapia */,
+				84D169901C45FD1A0076EFB4 /* piapiaTests */,
+				84D1699B1C45FD1A0076EFB4 /* piapiaUITests */,
+				84D169721C45FD190076EFB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84D169721C45FD190076EFB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D169711C45FD190076EFB4 /* piapia.app */,
+				84D1698D1C45FD1A0076EFB4 /* piapiaTests.xctest */,
+				84D169981C45FD1A0076EFB4 /* piapiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D169731C45FD190076EFB4 /* piapia */ = {
+			isa = PBXGroup;
+			children = (
+				84D169771C45FD190076EFB4 /* AppDelegate.h */,
+				84D169781C45FD190076EFB4 /* AppDelegate.m */,
+				84D1697A1C45FD190076EFB4 /* ViewController.h */,
+				84D1697B1C45FD190076EFB4 /* ViewController.m */,
+				84D1697D1C45FD190076EFB4 /* Main.storyboard */,
+				84D169831C45FD190076EFB4 /* Assets.xcassets */,
+				84D169851C45FD190076EFB4 /* LaunchScreen.storyboard */,
+				84D169881C45FD190076EFB4 /* Info.plist */,
+				84D169801C45FD190076EFB4 /* piapia.xcdatamodeld */,
+				84D169741C45FD190076EFB4 /* Supporting Files */,
+			);
+			path = piapia;
+			sourceTree = "<group>";
+		};
+		84D169741C45FD190076EFB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84D169751C45FD190076EFB4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84D169901C45FD1A0076EFB4 /* piapiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				84D169911C45FD1A0076EFB4 /* piapiaTests.m */,
+				84D169931C45FD1A0076EFB4 /* Info.plist */,
+			);
+			path = piapiaTests;
+			sourceTree = "<group>";
+		};
+		84D1699B1C45FD1A0076EFB4 /* piapiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84D1699C1C45FD1A0076EFB4 /* piapiaUITests.m */,
+				84D1699E1C45FD1A0076EFB4 /* Info.plist */,
+			);
+			path = piapiaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D169701C45FD190076EFB4 /* piapia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D169A11C45FD1A0076EFB4 /* Build configuration list for PBXNativeTarget "piapia" */;
+			buildPhases = (
+				84D1696D1C45FD190076EFB4 /* Sources */,
+				84D1696E1C45FD190076EFB4 /* Frameworks */,
+				84D1696F1C45FD190076EFB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = piapia;
+			productName = piapia;
+			productReference = 84D169711C45FD190076EFB4 /* piapia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84D1698C1C45FD1A0076EFB4 /* piapiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D169A41C45FD1A0076EFB4 /* Build configuration list for PBXNativeTarget "piapiaTests" */;
+			buildPhases = (
+				84D169891C45FD1A0076EFB4 /* Sources */,
+				84D1698A1C45FD1A0076EFB4 /* Frameworks */,
+				84D1698B1C45FD1A0076EFB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D1698F1C45FD1A0076EFB4 /* PBXTargetDependency */,
+			);
+			name = piapiaTests;
+			productName = piapiaTests;
+			productReference = 84D1698D1C45FD1A0076EFB4 /* piapiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84D169971C45FD1A0076EFB4 /* piapiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D169A71C45FD1A0076EFB4 /* Build configuration list for PBXNativeTarget "piapiaUITests" */;
+			buildPhases = (
+				84D169941C45FD1A0076EFB4 /* Sources */,
+				84D169951C45FD1A0076EFB4 /* Frameworks */,
+				84D169961C45FD1A0076EFB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D1699A1C45FD1A0076EFB4 /* PBXTargetDependency */,
+			);
+			name = piapiaUITests;
+			productName = piapiaUITests;
+			productReference = 84D169981C45FD1A0076EFB4 /* piapiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D169691C45FD190076EFB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "任茗赫";
+				TargetAttributes = {
+					84D169701C45FD190076EFB4 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3H3HQC3497;
+					};
+					84D1698C1C45FD1A0076EFB4 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3H3HQC3497;
+						TestTargetID = 84D169701C45FD190076EFB4;
+					};
+					84D169971C45FD1A0076EFB4 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3H3HQC3497;
+						TestTargetID = 84D169701C45FD190076EFB4;
+					};
+				};
+			};
+			buildConfigurationList = 84D1696C1C45FD190076EFB4 /* Build configuration list for PBXProject "piapia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84D169681C45FD190076EFB4;
+			productRefGroup = 84D169721C45FD190076EFB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D169701C45FD190076EFB4 /* piapia */,
+				84D1698C1C45FD1A0076EFB4 /* piapiaTests */,
+				84D169971C45FD1A0076EFB4 /* piapiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D1696F1C45FD190076EFB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D169871C45FD190076EFB4 /* LaunchScreen.storyboard in Resources */,
+				84D169841C45FD190076EFB4 /* Assets.xcassets in Resources */,
+				84D1697F1C45FD190076EFB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D1698B1C45FD1A0076EFB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D169961C45FD1A0076EFB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D1696D1C45FD190076EFB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D1697C1C45FD190076EFB4 /* ViewController.m in Sources */,
+				84D169791C45FD190076EFB4 /* AppDelegate.m in Sources */,
+				84D169761C45FD190076EFB4 /* main.m in Sources */,
+				84D169821C45FD190076EFB4 /* piapia.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D169891C45FD1A0076EFB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D169921C45FD1A0076EFB4 /* piapiaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D169941C45FD1A0076EFB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D1699D1C45FD1A0076EFB4 /* piapiaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84D1698F1C45FD1A0076EFB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D169701C45FD190076EFB4 /* piapia */;
+			targetProxy = 84D1698E1C45FD1A0076EFB4 /* PBXContainerItemProxy */;
+		};
+		84D1699A1C45FD1A0076EFB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D169701C45FD190076EFB4 /* piapia */;
+			targetProxy = 84D169991C45FD1A0076EFB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84D1697D1C45FD190076EFB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D1697E1C45FD190076EFB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84D169851C45FD190076EFB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D169861C45FD190076EFB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84D1699F1C45FD1A0076EFB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84D169A01C45FD1A0076EFB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D169A21C45FD1A0076EFB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = piapia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.163.piapia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84D169A31C45FD1A0076EFB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = piapia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.163.piapia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84D169A51C45FD1A0076EFB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = piapiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.163.piapiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/piapia.app/piapia";
+			};
+			name = Debug;
+		};
+		84D169A61C45FD1A0076EFB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = piapiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.163.piapiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/piapia.app/piapia";
+			};
+			name = Release;
+		};
+		84D169A81C45FD1A0076EFB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = piapiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.163.piapiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = piapia;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		84D169A91C45FD1A0076EFB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = piapiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.163.piapiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = piapia;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D1696C1C45FD190076EFB4 /* Build configuration list for PBXProject "piapia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D1699F1C45FD1A0076EFB4 /* Debug */,
+				84D169A01C45FD1A0076EFB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D169A11C45FD1A0076EFB4 /* Build configuration list for PBXNativeTarget "piapia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D169A21C45FD1A0076EFB4 /* Debug */,
+				84D169A31C45FD1A0076EFB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84D169A41C45FD1A0076EFB4 /* Build configuration list for PBXNativeTarget "piapiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D169A51C45FD1A0076EFB4 /* Debug */,
+				84D169A61C45FD1A0076EFB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84D169A71C45FD1A0076EFB4 /* Build configuration list for PBXNativeTarget "piapiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D169A81C45FD1A0076EFB4 /* Debug */,
+				84D169A91C45FD1A0076EFB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84D169801C45FD190076EFB4 /* piapia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84D169811C45FD190076EFB4 /* piapia.xcdatamodel */,
+			);
+			currentVersion = 84D169811C45FD190076EFB4 /* piapia.xcdatamodel */;
+			path = piapia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84D169691C45FD190076EFB4 /* Project object */;
+}

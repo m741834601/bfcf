@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "512F546DE4C2A1F03568159925E3901C0271EB84",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "ABF008E2A714A2A0B56E954A3EF1382A4D8394BF" : 0,
+    "512F546DE4C2A1F03568159925E3901C0271EB84" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "627BBEFB-531A-4BE6-B44B-48A80ABDA258",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "ABF008E2A714A2A0B56E954A3EF1382A4D8394BF" : "",
+    "512F546DE4C2A1F03568159925E3901C0271EB84" : "bfcf\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "piapia",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "piapia\/piapia.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/m741834601\/bfcf.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "512F546DE4C2A1F03568159925E3901C0271EB84"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/m741834601\/gitHubTest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ABF008E2A714A2A0B56E954A3EF1382A4D8394BF"
+    }
+  ]
+}
